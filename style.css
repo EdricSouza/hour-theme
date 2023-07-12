@@ -1,0 +1,73 @@
+body {
+    background-color: gray;
+}
+
+#wrapper {
+    margin: 80px auto 0;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main {
+    background-color: white;
+    margin: auto;
+    border-radius: 8px;
+    width: 35%;
+    height: 380px;
+    box-shadow: 10px 10px 10px rgba(7, 7, 7, 0.233);
+}
+
+#main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#github-logo {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top: 560px;
+    left: 890px;
+}
