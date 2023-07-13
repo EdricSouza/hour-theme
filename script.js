@@ -17,7 +17,7 @@ else{noite()}
 function dia(){
     body.style.backgroundColor = `#FF9500`
     img.innerHTML = `<img src="img/dia.jpg" alt="dia">`
-    moment = `dia`
+    moment = `manhã`
     console.log(`Moment: ${moment}`);
 }
 
@@ -35,5 +35,5 @@ function noite(){
     console.log(`Moment: ${moment}`);
 }
 
-document.querySelector('#main-text').innerHTML = `Hoje é ${dayNames[diaAtual]}, e são ${horaAtual} horas da ${moment}!.`
+document.querySelector('#main-text').innerHTML = `Hoje é ${dayNames[diaAtual]}, e são ${horaAtual} horas da ${moment}!`
         
