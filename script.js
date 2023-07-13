@@ -11,7 +11,7 @@ var img = document.querySelector('#img')
 var moment
 
 if(horaAtual>4&&horaAtual<12){dia()}
-else if (horaAtual>12&&horaAtual<18){tarde()}
+else if (horaAtual>11&&horaAtual<18){tarde()}
 else{noite()}
 
 function dia(){
